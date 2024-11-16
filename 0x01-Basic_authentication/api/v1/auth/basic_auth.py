@@ -75,4 +75,3 @@ class BasicAuth(Auth):
         if username is None or password is None:
             return
         return self.user_object_from_credentials(username, password)
-    
